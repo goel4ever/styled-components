@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Styled Components</title>
+    <link rel="stylesheet" type="text/css" media="all" href="./main.css">
+  </head>
+
+  <body>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+
+    <hr/>
+
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <script>
+      function myFunction(element) {
+        element.classList.toggle("change");
+      }
+    </script>
+  </body>
+</html>
